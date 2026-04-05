@@ -2,19 +2,19 @@
 
 **Persistent personal knowledge bases powered by LLMs — beyond RAG.**
 
-Traditional RAG makes the model rediscover everything on every query.  
-**LLM Wiki** makes the LLM your dedicated knowledge engineer: it reads raw documents once and maintains a clean, interlinked, ever-evolving Markdown knowledge base.
+Traditional RAG rediscovers knowledge every single query.  
+**LLM Wiki** turns the LLM into your knowledge engineer: it builds and maintains a clean, interlinked, evolving Markdown knowledge base from your raw documents.
 
-**Goal**: Build a living second brain that accumulates refined knowledge instead of starting from scratch every time.
+**Goal**: Create a living second brain that accumulates refined knowledge over time.
 
 ### Quick Start
-1. Drop documents/notes/PDFs into the `raw/` folder  
-2. Paste `llm-wiki.md` into Claude / GPT / Grok  
-3. Tell the LLM: “You are my LLM Wiki engineer. Build and maintain the wiki from raw/”
+1. Add your documents/notes/PDFs to the `raw/` folder  
+2. Paste `llm-wiki.md` into Claude, GPT, Grok, or any LLM  
+3. Say: “You are my LLM Wiki engineer. Build and maintain the wiki from raw/”
 
-### 2026 Novelty (fresh arXiv)
+### 2026 Enhancements
 - Hierarchical long-term memory (HiMem / H-MEM)  
 - Agentic Memory (AgeMem)  
-- Graph-based agentic memory with automatic consolidation
+- Graph-based agentic memory & consolidation
 
-Star ⭐ if you’re building your real second brain!
+Star ⭐ if you're building your real second brain!
