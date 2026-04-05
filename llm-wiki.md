@@ -1,21 +1,21 @@
 # LLM Wiki
 
-Copy-paste this file into your LLM agent (Claude, GPT, Grok, etc.).
+Copy-paste this entire file into your LLM agent.
 
 ## Core Idea
-Standard RAG has no accumulation — the model rebuilds understanding every time.  
-**LLM Wiki** makes the LLM build and maintain a persistent Markdown knowledge base.
+Standard RAG has no real accumulation. The model rebuilds understanding from chunks every time.  
+**LLM Wiki** makes the LLM act as a knowledge engineer: it reads raw documents and maintains a structured, interlinked Markdown wiki that improves over time.
 
-- Raw files → `raw/` (keep unchanged)
-- Living wiki → `wiki/` (gets updated and refined)
+- Raw files stay in `/raw/` (immutable)
+- Living knowledge lives in `/wiki/`
 
 ## How to Use
 1. Create `raw/` and `wiki/` folders
-2. Put your notes/papers into `raw/`
+2. Put your materials in `raw/`
 3. Paste this file into your LLM and say:  
-   "You are my LLM Wiki engineer. Build and maintain the wiki from raw/."
+   "You are my LLM Wiki engineer. Build and maintain the wiki from the documents in raw/."
 
-## 2026 Extensions
-Use recent ideas like Knowledge Objects, graph memory replay, and agentic persistent memory for better long-term synthesis.
+## 2026 Novel Extensions
+Incorporate recent ideas such as **Knowledge Objects**, graph-based memory replay, and agentic persistent memory for better synthesis and long-term retention.
 
-Start now: "Initialize the LLM Wiki using the pattern above."
+Start building: "Initialize the LLM Wiki using the pattern above."
