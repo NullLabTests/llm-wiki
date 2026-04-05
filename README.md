@@ -2,19 +2,19 @@
 
 **Persistent personal knowledge bases powered by LLMs.**
 
-Traditional RAG makes the model rediscover knowledge every time.  
-This project implements the **LLM Wiki pattern**: the LLM acts as a knowledge engineer that builds and maintains a clean, evolving Markdown knowledge base.
+Traditional RAG rediscovers knowledge every query.  
+This project follows the **LLM Wiki pattern**: the LLM acts as a knowledge engineer that builds and maintains a clean, evolving Markdown wiki.
 
-**Goal**: Turn your documents into a living, accumulating second brain instead of repeatedly re-synthesizing the same information.
+**Goal**: Create a living second brain that accumulates and refines knowledge over time.
 
 ### Quick Start
-1. Put your source materials in the `raw/` folder
-2. Copy `llm-wiki.md` into your LLM (Claude, GPT, Grok, etc.)
-3. Ask the LLM to build and update the `wiki/` folder
+1. Add documents to the `raw/` folder
+2. Paste `llm-wiki.md` into Claude / GPT / Grok
+3. Let the LLM build the `wiki/` folder
 
-### 2026 Enhancements
+### 2026 Improvements
 - Knowledge Objects (atomic persistent facts)
-- Graph-based memory replay & hierarchical consolidation
-- Agentic long-term memory to avoid loss during updates
+- Graph-based memory replay
+- Agentic hierarchical consolidation
 
-Star ⭐ if you're building your personal knowledge base!
+Star ⭐ if this helps your personal knowledge base!
