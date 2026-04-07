@@ -4,28 +4,27 @@
 
 **Persistent personal knowledge bases powered by LLMs — beyond RAG.**
 
-Traditional RAG forces your LLM to rediscover everything on every query.  
-**LLM Wiki** turns your LLM into a tireless knowledge engineer that builds & maintains a clean, interlinked, ever-evolving Markdown second brain.
+Traditional retrieval-augmented generation (RAG) forces models to rediscover knowledge on every query.  
+**LLM Wiki** transforms the LLM into a dedicated knowledge engineer that builds and maintains a clean, interlinked, evolving Markdown second brain from raw documents.
 
-**Goal**: Accumulate refined knowledge instead of starting from scratch.
+**Goal**: Accumulate refined, hierarchical knowledge over time instead of starting from scratch on each interaction.
 
 ### Quick Start (30 seconds)
-1. Drop your documents/notes/PDFs into the `raw/` folder  
+1. Drop your documents, notes, or PDFs into the `raw/` folder  
 2. Copy the content of `llm-wiki.md`  
-3. Paste it into Claude / GPT / Grok and say:
+3. Paste into any frontier LLM (Grok, Claude, GPT, etc.) and prompt:  
+   > "You are my LLM Wiki knowledge engineer. Build and maintain the wiki from the documents in raw/."
 
-> **"You are my LLM Wiki engineer. Build and maintain the wiki from the documents in raw/."**
+### 2026 Research Foundations
+This implementation is directly grounded in the latest arXiv literature on AGI-adjacent memory systems:
+- **HiMem: Hierarchical Long-Term Memory for LLM Long-Horizon Agents** (Zhang et al., arXiv:2601.06377, 2026)  
+- **H-MEM: Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents** (Sun et al., arXiv:2507.22925, 2025)  
+- **A-MEM: Agentic Memory for LLM Agents** (Xu et al., arXiv:2502.12110, 2025)  
+- **G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems** (Zhang et al., arXiv:2506.07398, 2025)  
+- ARC Prize 2025 Technical Report (Chollet et al., arXiv:2601.10904) and related AGI abstraction surveys
 
-### 2026 State-of-the-Art Enhancements
-- Hierarchical long-term memory (HiMem / H-MEM)  
-- Agentic Memory (AgeMem)  
-- Graph-based agentic memory & automatic consolidation
+### Star ⭐ if you are building real persistent intelligence.
+**Made by @TheGoldenAnvil** — Inspired by @karpathy’s original LLM Wiki concept.  
+[Follow on X](https://x.com/TheGoldenAnvil) | [Open an issue](https://github.com/NullLabTests/llm-wiki/issues)
 
-**Inspired by @karpathy** — the original LLM Wiki pattern.
-
-### Star ⭐ if you're building your real second brain!
-
----
-
-**Made with 🔥 by @TheGoldenAnvil**  
-[Follow on X](https://x.com/TheGoldenAnvil)
+Contributing: Add real documents to `raw/`, run the prompt, and open a PR with improvements to the `wiki/` folder.
