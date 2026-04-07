@@ -24,7 +24,7 @@ This implementation is directly grounded in the latest arXiv literature on AGI-a
 - ARC Prize 2025 Technical Report (Chollet et al., arXiv:2601.10904) and related AGI abstraction surveys
 
 ### Star ⭐ if you are building real persistent intelligence.
-**Made by @TheGoldenAnvil** — Inspired by @karpathy’s original LLM Wiki concept.  
+Inspired by @karpathy’s original LLM Wiki concept.  
 [Follow on X](https://x.com/TheGoldenAnvil) | [Open an issue](https://github.com/NullLabTests/llm-wiki/issues)
 
 Contributing: Add real documents to `raw/`, run the prompt, and open a PR with improvements to the `wiki/` folder.
