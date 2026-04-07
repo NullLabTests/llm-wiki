@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mempalace"
+version = "3.1.0-agi-kick"
+description = "Highest-scoring AI memory system + live 2026 AGI/ASI upgrades. Ground-truth, bio-forgetting, case-based safety, schema verification & continuum memory. 100% local."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "NullLabTests + Grok"}]
+keywords = ["ai","memory","llm","rag","agi","asi","mcp","knowledge-graph","bio-forgetting"]
+dependencies = ["chromadb>=0.4.0", "pyyaml>=6.0"]
+
+[project.urls]
+Homepage = "https://github.com/NullLabTests/mempalace"
+
+[project.scripts]
+mempalace = "mempalace:main"
