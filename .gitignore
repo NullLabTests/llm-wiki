@@ -1,3 +1,15 @@
-# Ignore large raw documents if you want (optional)
-# raw/*.pdf
-# raw/*.docx
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+
+# Dependencies
+node_modules/
